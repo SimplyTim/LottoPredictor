@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split, KFold, cross_val_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
-from sklearn.linear_model import LogisticRegression
-from sklearn.multioutput import MultiOutputClassifier
+from sklearn.linear_model import LogisticRegression, Ridge
+from sklearn.multioutput import MultiOutputClassifier, MultiOutputRegressor, ClassifierChain, RegressorChain
 from sklearn import metrics
 from datetime import date, datetime
 import matplotlib.pyplot as plt
@@ -21,7 +21,6 @@ y = np.array(df[['1','2','3','4','5','PB']])
 
 x_train, x_test, y_train, y_test = train_test_split(X,y)
 
-classifier = MultiOutputClassifier(RandomForestClassifier(n_estimators=50, random_state=36, criterion="entropy",class_weight="balanced", bootstrap=True), n_jobs=-1)
-k_fold = KFold(n_splits=5, shuffle=True, random_state=42)
+classifier = MultiOutputClassifier(RandomForestClassifier(n_estimators=36), n_jobs=-1)
 classifier.fit(x_train, y_train)
 print('Chance for winning: ', classifier.score(x_test, y_test))
