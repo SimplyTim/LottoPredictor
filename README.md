@@ -7,3 +7,5 @@ Wish me luck!
 - K-Nearest Neighbours
 
 All of the above classifiers yield an accuracy of 0.0.
+
+06/05/2021: After trying several other classifiers, it appears there is no pattern to how lottery numbers are drawn. A different approach using a Neural Net or clustering can be considered for future experimentation.
