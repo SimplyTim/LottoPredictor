@@ -1,0 +1,1544 @@
+{
+  "generated_at_utc": "2026-05-22T02:22:24.749119+00:00",
+  "dataset": {
+    "rows": 2488,
+    "start_date": "2001-07-04",
+    "end_date": "2026-05-20",
+    "weekday_counts": {
+      "Friday": 23,
+      "Monday": 19,
+      "Saturday": 1151,
+      "Sunday": 63,
+      "Thursday": 77,
+      "Tuesday": 9,
+      "Wednesday": 1146
+    }
+  },
+  "structural_changes": {
+    "historical_main_support_max": 36,
+    "recent_main_support_max": 35,
+    "last_occurrence_by_number": {
+      "1": "2026-04-11",
+      "2": "2026-02-28",
+      "3": "2026-03-28",
+      "4": "2026-04-15",
+      "5": "2026-02-28",
+      "6": "2026-04-29",
+      "7": "2026-05-16",
+      "8": "2026-05-06",
+      "9": "2026-05-16",
+      "10": "2026-04-22",
+      "11": "2026-05-20",
+      "12": "2026-05-02",
+      "13": "2026-04-04",
+      "14": "2026-05-16",
+      "15": "2026-05-20",
+      "16": "2026-03-04",
+      "17": "2026-04-22",
+      "18": "2026-05-09",
+      "19": "2026-05-06",
+      "20": "2026-04-08",
+      "21": "2026-04-18",
+      "22": "2026-04-25",
+      "23": "2026-05-06",
+      "24": "2026-05-06",
+      "25": "2026-05-13",
+      "26": "2026-01-31",
+      "27": "2026-05-13",
+      "28": "2026-05-20",
+      "29": "2026-04-18",
+      "30": "2026-05-20",
+      "31": "2026-04-29",
+      "32": "2026-02-07",
+      "33": "2026-04-25",
+      "34": "2026-05-06",
+      "35": "2026-05-20",
+      "36": "2012-09-01"
+    },
+    "last_occurrence_of_36": "2012-09-01",
+    "stable_era_start": "2012-09-02",
+    "yearly_main_support_max": {
+      "2001": 36,
+      "2002": 36,
+      "2003": 36,
+      "2004": 36,
+      "2005": 36,
+      "2006": 36,
+      "2007": 36,
+      "2008": 36,
+      "2009": 36,
+      "2010": 36,
+      "2011": 36,
+      "2012": 36,
+      "2013": 35,
+      "2014": 35,
+      "2015": 35,
+      "2016": 35,
+      "2017": 35,
+      "2018": 35,
+      "2019": 35,
+      "2020": 35,
+      "2021": 35,
+      "2022": 35,
+      "2023": 35,
+      "2024": 35,
+      "2025": 35,
+      "2026": 35
+    }
+  },
+  "full_history_autocorrelation": {
+    "main_sum": {
+      "significance_bound": 0.039294420048466644,
+      "top_lags": [
+        {
+          "lag": 33,
+          "acf": 0.05174067928136211,
+          "significant": true
+        },
+        {
+          "lag": 27,
+          "acf": 0.040770491104581516,
+          "significant": true
+        },
+        {
+          "lag": 6,
+          "acf": 0.03853683645573205,
+          "significant": false
+        },
+        {
+          "lag": 37,
+          "acf": -0.035909296264588234,
+          "significant": false
+        },
+        {
+          "lag": 10,
+          "acf": 0.03217775469233996,
+          "significant": false
+        }
+      ]
+    },
+    "odd_count": {
+      "significance_bound": 0.039294420048466644,
+      "top_lags": [
+        {
+          "lag": 3,
+          "acf": 0.05787760357294331,
+          "significant": true
+        },
+        {
+          "lag": 51,
+          "acf": -0.056508742961574696,
+          "significant": true
+        },
+        {
+          "lag": 50,
+          "acf": -0.04727244611030799,
+          "significant": true
+        },
+        {
+          "lag": 21,
+          "acf": 0.034521699488993904,
+          "significant": false
+        },
+        {
+          "lag": 37,
+          "acf": -0.03220824474885073,
+          "significant": false
+        }
+      ]
+    },
+    "spread": {
+      "significance_bound": 0.039294420048466644,
+      "top_lags": [
+        {
+          "lag": 51,
+          "acf": 0.04045858498569438,
+          "significant": true
+        },
+        {
+          "lag": 17,
+          "acf": 0.03985882627403411,
+          "significant": true
+        },
+        {
+          "lag": 34,
+          "acf": 0.03953817537420651,
+          "significant": true
+        },
+        {
+          "lag": 26,
+          "acf": 0.033242026601368206,
+          "significant": false
+        },
+        {
+          "lag": 1,
+          "acf": 0.03302455894903031,
+          "significant": false
+        }
+      ]
+    },
+    "repeat_from_prev": {
+      "significance_bound": 0.039294420048466644,
+      "top_lags": [
+        {
+          "lag": 30,
+          "acf": -0.0518678602286784,
+          "significant": true
+        },
+        {
+          "lag": 18,
+          "acf": -0.04705481312519219,
+          "significant": true
+        },
+        {
+          "lag": 2,
+          "acf": 0.04092283923215094,
+          "significant": true
+        },
+        {
+          "lag": 52,
+          "acf": 0.03798572445888338,
+          "significant": false
+        },
+        {
+          "lag": 40,
+          "acf": -0.03269252737064273,
+          "significant": false
+        }
+      ]
+    },
+    "PB": {
+      "significance_bound": 0.039294420048466644,
+      "top_lags": [
+        {
+          "lag": 29,
+          "acf": -0.054578352609755215,
+          "significant": true
+        },
+        {
+          "lag": 34,
+          "acf": -0.039188026817245175,
+          "significant": false
+        },
+        {
+          "lag": 1,
+          "acf": 0.03483850033436604,
+          "significant": false
+        },
+        {
+          "lag": 47,
+          "acf": -0.027421459190023346,
+          "significant": false
+        },
+        {
+          "lag": 2,
+          "acf": -0.026362619178642247,
+          "significant": false
+        }
+      ]
+    }
+  },
+  "stable_era_summary_tests": {
+    "weekday_regular_schedule": [
+      {
+        "feature": "main_sum",
+        "weekday_a": "Wednesday",
+        "weekday_b": "Saturday",
+        "weekday_a_mean": 89.86851211072664,
+        "weekday_b_mean": 90.62738301559791,
+        "mean_difference": -0.758870904871273,
+        "statistic": 163524.5,
+        "pvalue": 0.5689726950330332,
+        "qvalue": 0.9563008155937155,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "spread",
+        "weekday_a": "Wednesday",
+        "weekday_b": "Saturday",
+        "weekday_a_mean": 23.910034602076124,
+        "weekday_b_mean": 23.604852686308494,
+        "mean_difference": 0.3051819157676299,
+        "statistic": 169856.5,
+        "pvalue": 0.5835682030596118,
+        "qvalue": 0.9563008155937155,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "odd_count",
+        "weekday_a": "Wednesday",
+        "weekday_b": "Saturday",
+        "weekday_a_mean": 2.6228373702422147,
+        "weekday_b_mean": 2.5892547660311958,
+        "mean_difference": 0.033582604211018996,
+        "statistic": 169283.0,
+        "pvalue": 0.6404381405972291,
+        "qvalue": 0.9563008155937155,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "repeat_from_prev",
+        "weekday_a": "Wednesday",
+        "weekday_b": "Saturday",
+        "weekday_a_mean": 0.7422145328719724,
+        "weekday_b_mean": 0.7487001733102253,
+        "mean_difference": -0.006485640438252949,
+        "statistic": 165243.5,
+        "pvalue": 0.7722504743395364,
+        "qvalue": 0.9563008155937155,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "PB",
+        "weekday_a": "Wednesday",
+        "weekday_b": "Saturday",
+        "weekday_a_mean": 5.510380622837371,
+        "weekday_b_mean": 5.50259965337955,
+        "mean_difference": 0.00778096945782103,
+        "statistic": 167062.5,
+        "pvalue": 0.9563008155937154,
+        "qvalue": 0.9563008155937155,
+        "significant_fdr_05": false
+      }
+    ],
+    "month_of_year": [
+      {
+        "feature": "PB",
+        "monthly_means": {
+          "1": 5.5333,
+          "2": 5.514,
+          "3": 6.5327,
+          "4": 5.5816,
+          "5": 5.17,
+          "6": 4.8132,
+          "7": 5.1505,
+          "8": 5.2574,
+          "9": 5.75,
+          "10": 5.5702,
+          "11": 5.7345,
+          "12": 5.2222
+        },
+        "monthly_mean_range": 1.7195,
+        "statistic": 24.304325791166153,
+        "pvalue": 0.011509445212868664,
+        "qvalue": 0.057547226064343315,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "odd_count",
+        "monthly_means": {
+          "1": 2.6083,
+          "2": 2.3832,
+          "3": 2.6449,
+          "4": 2.6429,
+          "5": 2.51,
+          "6": 2.7473,
+          "7": 2.7527,
+          "8": 2.5347,
+          "9": 2.5385,
+          "10": 2.7895,
+          "11": 2.6283,
+          "12": 2.713
+        },
+        "monthly_mean_range": 0.4062999999999999,
+        "statistic": 16.61977187873635,
+        "pvalue": 0.11963655438702159,
+        "qvalue": 0.29909138596755397,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "spread",
+        "monthly_means": {
+          "1": 23.5833,
+          "2": 24.1121,
+          "3": 23.486,
+          "4": 24.5408,
+          "5": 23.99,
+          "6": 24.5604,
+          "7": 23.8387,
+          "8": 23.1188,
+          "9": 22.6635,
+          "10": 24.0965,
+          "11": 23.9823,
+          "12": 22.7222
+        },
+        "monthly_mean_range": 1.8969000000000023,
+        "statistic": 14.237101226423288,
+        "pvalue": 0.22015026338572172,
+        "qvalue": 0.3669171056428695,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "main_sum",
+        "monthly_means": {
+          "1": 90.6917,
+          "2": 92.0467,
+          "3": 88.7944,
+          "4": 90.9286,
+          "5": 86.65,
+          "6": 89.7802,
+          "7": 86.3226,
+          "8": 88.2178,
+          "9": 91.5385,
+          "10": 90.7368,
+          "11": 92.1327,
+          "12": 92.787
+        },
+        "monthly_mean_range": 6.464400000000012,
+        "statistic": 10.852581121551967,
+        "pvalue": 0.4556950521732017,
+        "qvalue": 0.5696188152165022,
+        "significant_fdr_05": false
+      },
+      {
+        "feature": "repeat_from_prev",
+        "monthly_means": {
+          "1": 0.75,
+          "2": 0.7477,
+          "3": 0.7009,
+          "4": 0.6531,
+          "5": 0.8,
+          "6": 0.8132,
+          "7": 0.8817,
+          "8": 0.7327,
+          "9": 0.8077,
+          "10": 0.693,
+          "11": 0.7345,
+          "12": 0.7407
+        },
+        "monthly_mean_range": 0.22860000000000003,
+        "statistic": 6.534708264396583,
+        "pvalue": 0.8354162423219038,
+        "qvalue": 0.8354162423219037,
+        "significant_fdr_05": false
+      }
+    ]
+  },
+  "stable_era_number_tests": {
+    "month_of_year": [
+      {
+        "label": "pb_3",
+        "occurrence_rate": 0.08598726114649681,
+        "statistic": 36.71262066622447,
+        "pvalue": 0.00012872769544626286,
+        "qvalue": 0.005792746295081828,
+        "significant_fdr_05": true
+      },
+      {
+        "label": "main_24",
+        "occurrence_rate": 0.13853503184713375,
+        "statistic": 28.108733039211604,
+        "pvalue": 0.0031154629555250886,
+        "qvalue": 0.07009791649931449,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_4",
+        "occurrence_rate": 0.14251592356687898,
+        "statistic": 24.303428586440326,
+        "pvalue": 0.011512883878626713,
+        "qvalue": 0.1726932581794007,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_7",
+        "occurrence_rate": 0.10589171974522293,
+        "statistic": 19.767946875618094,
+        "pvalue": 0.04862648017605528,
+        "qvalue": 0.4937604197349694,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_33",
+        "occurrence_rate": 0.1464968152866242,
+        "statistic": 19.36413311102506,
+        "pvalue": 0.054862268859441045,
+        "qvalue": 0.4937604197349694,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_14",
+        "occurrence_rate": 0.12579617834394904,
+        "statistic": 18.434989445237186,
+        "pvalue": 0.07202079060662467,
+        "qvalue": 0.540155929549685,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_5",
+        "occurrence_rate": 0.09235668789808917,
+        "statistic": 17.508212264814873,
+        "pvalue": 0.09371586808128671,
+        "qvalue": 0.6024591519511288,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_22",
+        "occurrence_rate": 0.1393312101910828,
+        "statistic": 16.608975297219455,
+        "pvalue": 0.11998583709846158,
+        "qvalue": 0.6604492939656726,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_29",
+        "occurrence_rate": 0.15843949044585987,
+        "statistic": 16.2503044920576,
+        "pvalue": 0.13208985879313453,
+        "qvalue": 0.6604492939656726,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_11",
+        "occurrence_rate": 0.1449044585987261,
+        "statistic": 14.786906562539215,
+        "pvalue": 0.19246178203645115,
+        "qvalue": 0.7279186422176748,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_25",
+        "occurrence_rate": 0.16480891719745222,
+        "statistic": 14.729437758842373,
+        "pvalue": 0.1952214806969893,
+        "qvalue": 0.7279186422176748,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_6",
+        "occurrence_rate": 0.13853503184713375,
+        "statistic": 14.584230110314483,
+        "pvalue": 0.2023330208777482,
+        "qvalue": 0.7279186422176748,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_34",
+        "occurrence_rate": 0.14410828025477707,
+        "statistic": 14.426450184263773,
+        "pvalue": 0.21028760775177271,
+        "qvalue": 0.7279186422176748,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_10",
+        "occurrence_rate": 0.13296178343949044,
+        "statistic": 13.947441643234924,
+        "pvalue": 0.2359154075762453,
+        "qvalue": 0.7287102078212998,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_19",
+        "occurrence_rate": 0.13614649681528662,
+        "statistic": 13.823690722220153,
+        "pvalue": 0.24290340260709994,
+        "qvalue": 0.7287102078212998,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_2",
+        "occurrence_rate": 0.10509554140127389,
+        "statistic": 12.775172219302831,
+        "pvalue": 0.3082737367039268,
+        "qvalue": 0.8225191257359531,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_8",
+        "occurrence_rate": 0.1449044585987261,
+        "statistic": 12.59299886415517,
+        "pvalue": 0.320756508535676,
+        "qvalue": 0.8225191257359531,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_26",
+        "occurrence_rate": 0.1480891719745223,
+        "statistic": 12.475140025110779,
+        "pvalue": 0.3290076502943812,
+        "qvalue": 0.8225191257359531,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_18",
+        "occurrence_rate": 0.13853503184713375,
+        "statistic": 11.703030259944843,
+        "pvalue": 0.3863743514828677,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_9",
+        "occurrence_rate": 0.10907643312101911,
+        "statistic": 11.169558082429734,
+        "pvalue": 0.42916958574134617,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_15",
+        "occurrence_rate": 0.14729299363057324,
+        "statistic": 10.739973274787515,
+        "pvalue": 0.4652976989597827,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_1",
+        "occurrence_rate": 0.13694267515923567,
+        "statistic": 10.116180302650186,
+        "pvalue": 0.5199679622964613,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_30",
+        "occurrence_rate": 0.14012738853503184,
+        "statistic": 10.089547992309774,
+        "pvalue": 0.5223507086095238,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_5",
+        "occurrence_rate": 0.1464968152866242,
+        "statistic": 9.870102287879027,
+        "pvalue": 0.5421081074546734,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_17",
+        "occurrence_rate": 0.16321656050955413,
+        "statistic": 9.771040674284615,
+        "pvalue": 0.5510923424442045,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_9",
+        "occurrence_rate": 0.160828025477707,
+        "statistic": 9.714229977462589,
+        "pvalue": 0.5562608281551796,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_31",
+        "occurrence_rate": 0.14729299363057324,
+        "statistic": 9.56959996544968,
+        "pvalue": 0.5694658274076148,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_6",
+        "occurrence_rate": 0.09076433121019108,
+        "statistic": 9.534950286711506,
+        "pvalue": 0.5726383661149106,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_2",
+        "occurrence_rate": 0.1377388535031847,
+        "statistic": 9.362689152382284,
+        "pvalue": 0.5884527653513725,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_10",
+        "occurrence_rate": 0.09554140127388536,
+        "statistic": 9.269885943489985,
+        "pvalue": 0.5969959552293163,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_21",
+        "occurrence_rate": 0.12261146496815287,
+        "statistic": 9.153848111592131,
+        "pvalue": 0.6076938405205727,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_8",
+        "occurrence_rate": 0.10429936305732485,
+        "statistic": 9.058934949589116,
+        "pvalue": 0.6164522752574793,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_16",
+        "occurrence_rate": 0.12738853503184713,
+        "statistic": 8.960071080285406,
+        "pvalue": 0.6255780782935224,
+        "qvalue": 0.8530610158548033,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_32",
+        "occurrence_rate": 0.13136942675159236,
+        "statistic": 8.165753454564314,
+        "pvalue": 0.6983834242808475,
+        "qvalue": 0.8820474505833373,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_12",
+        "occurrence_rate": 0.1449044585987261,
+        "statistic": 8.157362535082298,
+        "pvalue": 0.699142013641526,
+        "qvalue": 0.8820474505833373,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_1",
+        "occurrence_rate": 0.10987261146496816,
+        "statistic": 8.085356013013696,
+        "pvalue": 0.7056379604666698,
+        "qvalue": 0.8820474505833373,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_35",
+        "occurrence_rate": 0.12579617834394904,
+        "statistic": 6.965087852813095,
+        "pvalue": 0.801903667088776,
+        "qvalue": 0.9752882437566196,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_28",
+        "occurrence_rate": 0.1536624203821656,
+        "statistic": 5.959413681107822,
+        "pvalue": 0.8760585085310632,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_4",
+        "occurrence_rate": 0.10111464968152867,
+        "statistic": 5.314129633700788,
+        "pvalue": 0.9150043453943811,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_13",
+        "occurrence_rate": 0.1536624203821656,
+        "statistic": 4.9104211973924805,
+        "pvalue": 0.9354270097521631,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_20",
+        "occurrence_rate": 0.1480891719745223,
+        "statistic": 4.885633740533222,
+        "pvalue": 0.9365783731405847,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_7",
+        "occurrence_rate": 0.14968152866242038,
+        "statistic": 4.775199544963334,
+        "pvalue": 0.9415626182815392,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_23",
+        "occurrence_rate": 0.1377388535031847,
+        "statistic": 4.594294030688086,
+        "pvalue": 0.9492140369798483,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_27",
+        "occurrence_rate": 0.14570063694267515,
+        "statistic": 4.057883775004338,
+        "pvalue": 0.9681930635377201,
+        "qvalue": 0.9901974513453955,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_3",
+        "occurrence_rate": 0.13535031847133758,
+        "statistic": 2.864192121295379,
+        "pvalue": 0.9924015664795484,
+        "qvalue": 0.9924015664795485,
+        "significant_fdr_05": false
+      }
+    ],
+    "weekday_regular_schedule": [
+      {
+        "label": "main_3",
+        "occurrence_rate": 0.13246753246753246,
+        "statistic": 5.850866501724491,
+        "pvalue": 0.015569383249902348,
+        "qvalue": 0.7006222462456057,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_9",
+        "occurrence_rate": 0.15844155844155844,
+        "statistic": 4.443126600789645,
+        "pvalue": 0.03504201697110598,
+        "qvalue": 0.7884453818498847,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_6",
+        "occurrence_rate": 0.14025974025974025,
+        "statistic": 3.2087707098689657,
+        "pvalue": 0.07324449373337452,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_12",
+        "occurrence_rate": 0.15064935064935064,
+        "statistic": 1.5531970176161831,
+        "pvalue": 0.21266409441735531,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_30",
+        "occurrence_rate": 0.1445887445887446,
+        "statistic": 1.400520737113188,
+        "pvalue": 0.23663640174547815,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_8",
+        "occurrence_rate": 0.14632034632034632,
+        "statistic": 1.3302981042704314,
+        "pvalue": 0.2487521916562731,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_14",
+        "occurrence_rate": 0.12294372294372294,
+        "statistic": 0.9499642704137832,
+        "pvalue": 0.3297283921374012,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_5",
+        "occurrence_rate": 0.13852813852813853,
+        "statistic": 0.8558873532797078,
+        "pvalue": 0.35489215159993714,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_19",
+        "occurrence_rate": 0.14025974025974025,
+        "statistic": 0.8467533486586472,
+        "pvalue": 0.35747242512423305,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_23",
+        "occurrence_rate": 0.13593073593073593,
+        "statistic": 0.7172397365936285,
+        "pvalue": 0.3970508208264719,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_2",
+        "occurrence_rate": 0.13766233766233765,
+        "statistic": 0.7093908497163637,
+        "pvalue": 0.39964610921405475,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_1",
+        "occurrence_rate": 0.13852813852813853,
+        "statistic": 0.56970623423254,
+        "pvalue": 0.4503756746814216,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_7",
+        "occurrence_rate": 0.1497835497835498,
+        "statistic": 0.4515614592124095,
+        "pvalue": 0.5015943735235958,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_16",
+        "occurrence_rate": 0.12294372294372294,
+        "statistic": 0.40738360424514436,
+        "pvalue": 0.5233004806063429,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_29",
+        "occurrence_rate": 0.16017316017316016,
+        "statistic": 0.39559590554076746,
+        "pvalue": 0.5293725248317757,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_24",
+        "occurrence_rate": 0.14025974025974025,
+        "statistic": 0.36605476744214693,
+        "pvalue": 0.5451626510249066,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_13",
+        "occurrence_rate": 0.14891774891774892,
+        "statistic": 0.3491249976422039,
+        "pvalue": 0.5546088660573978,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_26",
+        "occurrence_rate": 0.15064935064935064,
+        "statistic": 0.3459832053674472,
+        "pvalue": 0.5563957951549612,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_34",
+        "occurrence_rate": 0.14025974025974025,
+        "statistic": 0.3378573646333573,
+        "pvalue": 0.5610686103279141,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_35",
+        "occurrence_rate": 0.12207792207792208,
+        "statistic": 0.30277704643581005,
+        "pvalue": 0.5821466771218569,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_25",
+        "occurrence_rate": 0.1670995670995671,
+        "statistic": 0.23659842483589072,
+        "pvalue": 0.6266737790476102,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_7",
+        "occurrence_rate": 0.10476190476190476,
+        "statistic": 0.15554367040000966,
+        "pvalue": 0.6932929400271374,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_10",
+        "occurrence_rate": 0.09610389610389611,
+        "statistic": 0.15189914679880845,
+        "pvalue": 0.696727032189107,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_17",
+        "occurrence_rate": 0.1497835497835498,
+        "statistic": 0.11707808450268953,
+        "pvalue": 0.732225406640066,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_22",
+        "occurrence_rate": 0.1393939393939394,
+        "statistic": 0.10756748771129891,
+        "pvalue": 0.7429306953227015,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_6",
+        "occurrence_rate": 0.09177489177489177,
+        "statistic": 0.08785308075328707,
+        "pvalue": 0.7669244697829296,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_27",
+        "occurrence_rate": 0.14545454545454545,
+        "statistic": 0.06891641898113823,
+        "pvalue": 0.7929210547232524,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_31",
+        "occurrence_rate": 0.15064935064935064,
+        "statistic": 0.05493585021313875,
+        "pvalue": 0.8146868941935432,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_28",
+        "occurrence_rate": 0.1523809523809524,
+        "statistic": 0.05435640535534023,
+        "pvalue": 0.8156491217928249,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_8",
+        "occurrence_rate": 0.10822510822510822,
+        "statistic": 0.03987209310043407,
+        "pvalue": 0.8417308746633332,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_18",
+        "occurrence_rate": 0.14112554112554113,
+        "statistic": 0.024682159452963072,
+        "pvalue": 0.8751616495584732,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_10",
+        "occurrence_rate": 0.13506493506493505,
+        "statistic": 0.009548466706096805,
+        "pvalue": 0.9221576068336783,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_2",
+        "occurrence_rate": 0.1038961038961039,
+        "statistic": 0.007467538065281996,
+        "pvalue": 0.9311365883851714,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_20",
+        "occurrence_rate": 0.14545454545454545,
+        "statistic": 0.005086583899539971,
+        "pvalue": 0.9431428465160873,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_15",
+        "occurrence_rate": 0.15064935064935064,
+        "statistic": 0.004881329230079404,
+        "pvalue": 0.9442999090561275,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_11",
+        "occurrence_rate": 0.14805194805194805,
+        "statistic": 0.00015045940958680005,
+        "pvalue": 0.9902132420429258,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_4",
+        "occurrence_rate": 0.1012987012987013,
+        "statistic": 9.759034415548156e-05,
+        "pvalue": 0.9921180001460002,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_5",
+        "occurrence_rate": 0.09090909090909091,
+        "statistic": 8.658015148152272e-05,
+        "pvalue": 0.9925759144917892,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_4",
+        "occurrence_rate": 0.14805194805194805,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_21",
+        "occurrence_rate": 0.12034632034632034,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_32",
+        "occurrence_rate": 0.13593073593073593,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_33",
+        "occurrence_rate": 0.14891774891774892,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_1",
+        "occurrence_rate": 0.11255411255411256,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_3",
+        "occurrence_rate": 0.08311688311688312,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_9",
+        "occurrence_rate": 0.10735930735930736,
+        "statistic": 0.0,
+        "pvalue": 1.0,
+        "qvalue": 1.0,
+        "significant_fdr_05": false
+      }
+    ],
+    "time_trend": [
+      {
+        "label": "main_32",
+        "occurrence_rate": 0.13136942675159236,
+        "correlation": -0.0612834653368309,
+        "pvalue": 0.029872976194142725,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_14",
+        "occurrence_rate": 0.12579617834394904,
+        "correlation": -0.05080852718282596,
+        "pvalue": 0.0718561283080672,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_34",
+        "occurrence_rate": 0.14410828025477707,
+        "correlation": -0.05015487929411089,
+        "pvalue": 0.07559424759747045,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_11",
+        "occurrence_rate": 0.1449044585987261,
+        "correlation": 0.04940699817063467,
+        "pvalue": 0.08006413987095587,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_26",
+        "occurrence_rate": 0.1480891719745223,
+        "correlation": -0.04863027241578907,
+        "pvalue": 0.08493111270249551,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_15",
+        "occurrence_rate": 0.14729299363057324,
+        "correlation": -0.047502630711713144,
+        "pvalue": 0.09241937671392436,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_3",
+        "occurrence_rate": 0.08598726114649681,
+        "correlation": 0.04637031073897222,
+        "pvalue": 0.10046254570133359,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_6",
+        "occurrence_rate": 0.13853503184713375,
+        "correlation": 0.04560734303910246,
+        "pvalue": 0.10618954720863807,
+        "qvalue": 0.5973162030485891,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_12",
+        "occurrence_rate": 0.1449044585987261,
+        "correlation": -0.0419335658715917,
+        "pvalue": 0.13746358287924246,
+        "qvalue": 0.6865088214909748,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_20",
+        "occurrence_rate": 0.1480891719745223,
+        "correlation": 0.040389215572381135,
+        "pvalue": 0.1525575158868833,
+        "qvalue": 0.6865088214909748,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_8",
+        "occurrence_rate": 0.10429936305732485,
+        "correlation": -0.03721867347886715,
+        "pvalue": 0.18744456217520206,
+        "qvalue": 0.7012356741532535,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_6",
+        "occurrence_rate": 0.09076433121019108,
+        "correlation": -0.03656847206279159,
+        "pvalue": 0.1952744424475722,
+        "qvalue": 0.7012356741532535,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_21",
+        "occurrence_rate": 0.12261146496815287,
+        "correlation": 0.03597887882266473,
+        "pvalue": 0.20257919475538436,
+        "qvalue": 0.7012356741532535,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_17",
+        "occurrence_rate": 0.16321656050955413,
+        "correlation": 0.03391914044359683,
+        "pvalue": 0.22965573358642596,
+        "qvalue": 0.7381791436706548,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_23",
+        "occurrence_rate": 0.1377388535031847,
+        "correlation": 0.029600313163737756,
+        "pvalue": 0.29453590006586555,
+        "qvalue": 0.7900764316205192,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_2",
+        "occurrence_rate": 0.10509554140127389,
+        "correlation": 0.02946461967116231,
+        "pvalue": 0.2967558509283465,
+        "qvalue": 0.7900764316205192,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_5",
+        "occurrence_rate": 0.09235668789808917,
+        "correlation": -0.029169499733530883,
+        "pvalue": 0.3016225259892125,
+        "qvalue": 0.7900764316205192,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_10",
+        "occurrence_rate": 0.13296178343949044,
+        "correlation": 0.02642898284683535,
+        "pvalue": 0.3493368243995752,
+        "qvalue": 0.7900764316205192,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_31",
+        "occurrence_rate": 0.14729299363057324,
+        "correlation": 0.02641720029210056,
+        "pvalue": 0.3495517867698777,
+        "qvalue": 0.7900764316205192,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_9",
+        "occurrence_rate": 0.160828025477707,
+        "correlation": -0.026330011201018112,
+        "pvalue": 0.35114508072023076,
+        "qvalue": 0.7900764316205192,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_1",
+        "occurrence_rate": 0.13694267515923567,
+        "correlation": -0.023863224349745984,
+        "pvalue": 0.39811469752818807,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_16",
+        "occurrence_rate": 0.12738853503184713,
+        "correlation": 0.02247874916461357,
+        "pvalue": 0.4260574572952607,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_24",
+        "occurrence_rate": 0.13853503184713375,
+        "correlation": 0.022075860958160675,
+        "pvalue": 0.43439867680216765,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_10",
+        "occurrence_rate": 0.09554140127388536,
+        "correlation": -0.02020638399931214,
+        "pvalue": 0.4743149056218324,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_30",
+        "occurrence_rate": 0.14012738853503184,
+        "correlation": -0.019977679214340932,
+        "pvalue": 0.4793326010140684,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_9",
+        "occurrence_rate": 0.10907643312101911,
+        "correlation": 0.018691531475149906,
+        "pvalue": 0.5080815797702747,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_28",
+        "occurrence_rate": 0.1536624203821656,
+        "correlation": 0.017655456354294097,
+        "pvalue": 0.5318813532501526,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_4",
+        "occurrence_rate": 0.10111464968152867,
+        "correlation": 0.016916402598345624,
+        "pvalue": 0.5491963816889883,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_8",
+        "occurrence_rate": 0.1449044585987261,
+        "correlation": 0.016387902044729456,
+        "pvalue": 0.5617464357324383,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_19",
+        "occurrence_rate": 0.13614649681528662,
+        "correlation": 0.015056817278445975,
+        "pvalue": 0.593954755626111,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_3",
+        "occurrence_rate": 0.13535031847133758,
+        "correlation": -0.01431418451099323,
+        "pvalue": 0.6122833308890566,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_2",
+        "occurrence_rate": 0.1377388535031847,
+        "correlation": 0.0134859676700142,
+        "pvalue": 0.6330134206729389,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_22",
+        "occurrence_rate": 0.1393312101910828,
+        "correlation": 0.012729894484882901,
+        "pvalue": 0.6521930435207156,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_33",
+        "occurrence_rate": 0.1464968152866242,
+        "correlation": 0.01270575411390332,
+        "pvalue": 0.6528093117854734,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_18",
+        "occurrence_rate": 0.13853503184713375,
+        "correlation": 0.01247130411745213,
+        "pvalue": 0.6588067364202603,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_27",
+        "occurrence_rate": 0.14570063694267515,
+        "correlation": -0.011654604540504047,
+        "pvalue": 0.6798681952652831,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_29",
+        "occurrence_rate": 0.15843949044585987,
+        "correlation": -0.011603309387827564,
+        "pvalue": 0.681199601434159,
+        "qvalue": 0.8284860017442475,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_5",
+        "occurrence_rate": 0.1464968152866242,
+        "correlation": -0.00840840228261246,
+        "pvalue": 0.7659297835392472,
+        "qvalue": 0.9070221120859507,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_1",
+        "occurrence_rate": 0.10987261146496816,
+        "correlation": 0.007014652551839092,
+        "pvalue": 0.8038594000537396,
+        "qvalue": 0.9111092981444365,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_7",
+        "occurrence_rate": 0.14968152866242038,
+        "correlation": -0.0067952531990353475,
+        "pvalue": 0.8098749316839435,
+        "qvalue": 0.9111092981444365,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_4",
+        "occurrence_rate": 0.14251592356687898,
+        "correlation": -0.005857544472755251,
+        "pvalue": 0.8357076428673178,
+        "qvalue": 0.917240095829983,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_25",
+        "occurrence_rate": 0.16480891719745222,
+        "correlation": -0.0039211556962669425,
+        "pvalue": 0.889585846183247,
+        "qvalue": 0.9401524937440008,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "pb_7",
+        "occurrence_rate": 0.10589171974522293,
+        "correlation": 0.0036075020169993046,
+        "pvalue": 0.8983679384664897,
+        "qvalue": 0.9401524937440008,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_35",
+        "occurrence_rate": 0.12579617834394904,
+        "correlation": 0.002741395836529382,
+        "pvalue": 0.9226797286744736,
+        "qvalue": 0.9436497225079843,
+        "significant_fdr_05": false
+      },
+      {
+        "label": "main_13",
+        "occurrence_rate": 0.1536624203821656,
+        "correlation": -0.001555774822735693,
+        "pvalue": 0.9560731880928178,
+        "qvalue": 0.9560731880928178,
+        "significant_fdr_05": false
+      }
+    ]
+  },
+  "stable_era_date_only_model": {
+    "holdout_draws": 104,
+    "holdout_start_date": "2025-05-03",
+    "holdout_end_date": "2026-05-20",
+    "metrics": {
+      "mean_main_hits": 0.8461538461538461,
+      "main_hit_rate": 0.16923076923076924,
+      "powerball_accuracy": 0.08653846153846154,
+      "mean_total_hits": 0.9326923076923077,
+      "exact_match_rate": 0.0
+    },
+    "random_ticket_expectation": {
+      "mean_main_hits": 0.7142857142857143,
+      "powerball_accuracy": 0.1,
+      "mean_total_hits": 0.8142857142857143
+    }
+  },
+  "stable_era_frequency_baseline": {
+    "holdout_draws": 104,
+    "holdout_start_date": "2025-05-03",
+    "holdout_end_date": "2026-05-20",
+    "ticket": {
+      "main_numbers": [
+        9,
+        13,
+        17,
+        25,
+        29
+      ],
+      "powerball": 1
+    },
+    "metrics": {
+      "mean_main_hits": 0.7596153846153846,
+      "main_hit_rate": 0.1519230769230769,
+      "powerball_accuracy": 0.09615384615384616,
+      "mean_total_hits": 0.8557692307692307,
+      "exact_match_rate": 0.0
+    }
+  }
+}
