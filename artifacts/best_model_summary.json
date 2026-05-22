@@ -1,0 +1,12 @@
+{
+  "best_model": "knn",
+  "holdout_metrics": {
+    "mean_main_hits": 0.75,
+    "main_hit_rate": 0.15,
+    "powerball_accuracy": 0.09615384615384616,
+    "mean_total_hits": 0.8461538461538461,
+    "exact_match_rate": 0.0
+  },
+  "benchmark_path": "artifacts\\model_benchmark.csv",
+  "model_path": "artifacts\\best_ticket_predictor.joblib"
+}
