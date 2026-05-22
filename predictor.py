@@ -2,7 +2,11 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
+
+import requests
+from bs4 import BeautifulSoup
 
 from lotto_pipeline import (
     build_draw_context,
@@ -10,7 +14,26 @@ from lotto_pipeline import (
     load_draws,
     load_model_bundle,
 )
-from next_draw_predictor import fetch_next_estimated_jackpot
+
+RESULTS_URL = "https://www.nlcbplaywhelotto.com/nlcb-lotto-plus-results/"
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+
+def fetch_next_estimated_jackpot() -> float | None:
+    try:
+        response = requests.get(RESULTS_URL, timeout=30, headers={"User-Agent": USER_AGENT})
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        text = soup.get_text("\n", strip=True)
+        match = re.search(r"Next Estimated Jackpot\s+([\d.]+)\s+MILLION", text, flags=re.IGNORECASE)
+        if match:
+            return float(match.group(1)) * 1_000_000.0
+    except requests.RequestException:
+        return None
+    return None
 
 
 def predict_next_draw(
@@ -46,3 +69,16 @@ def predict_next_draw(
         "main_numbers": [int(value) for value in prediction[:5]],
         "powerball": int(prediction[5]),
     }
+
+
+def format_prediction(result: dict[str, object]) -> str:
+    main_numbers = " ".join(f"{int(value):02d}" for value in result["main_numbers"])
+    lines = [
+        f"Model: {result['model_name']}",
+        f"Next draw #: {int(result['draw_number'])}",
+        f"Next draw date: {result['draw_date'].strftime('%d-%b-%y')}",
+    ]
+    if result["estimated_jackpot"] is not None:
+        lines.append(f"Estimated jackpot: ${float(result['estimated_jackpot']):,.2f}")
+    lines.append(f"Predicted numbers: {main_numbers} | PB {int(result['powerball']):02d}")
+    return "\n".join(lines)
